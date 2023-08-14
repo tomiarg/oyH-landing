@@ -101,9 +101,18 @@ h3{
 }
 .fraseVideo h2{
     color: white;
-    font-size: 7rem;
-    margin-left: 3rem;
-    margin:0 auto;
+    font-size: 3rem;
+    margin-left: 3rem;  
+}
+.fraseVideo{
+    margin-top:-10rem;
+}
+@media (min-width: 768px){
+    .fraseVideo h2{
+        margin:0 auto;
+        font-size: 7rem;
+    }
+    
 }
 /*imgs*/
 .cuatroImgs{
