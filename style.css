@@ -39,15 +39,17 @@ h3{
 /*Header*/
 .header{
     width: 100%;    
-    background-color: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
     position: relative;  
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height:100vh;
     
 }
 @media (min-width: 768px){
+    .header{
+        height: 100vh;
+    }
     .navegacion-principal{
         display: flex;
     }
@@ -64,6 +66,7 @@ h3{
        display: flex;
        align-items: center;
        justify-content: space-around;
+
 }
 .navegacion-principal ul li{
     list-style: none;
@@ -134,8 +137,32 @@ h3{
     align-items: center;   
     width: 100%;
     background-color: white;
-    margin-top: -55rem;
+    margin-top: -50rem;
 }
+@media (min-width: 391px){
+    .cuatroImgs{
+        margin-top:-45rem;
+    }
+}
+@media (min-width: 400px){
+    .cuatroImgs{
+        margin-top:-55rem;
+    }    
+}
+@media (min-width: 769px){
+    .cuatroImgs{
+        flex-direction: row;
+        margin-top:-20rem;
+    }
+}
+@media (min-width: 800px){
+    .cuatroImgs{
+        flex-direction: row;
+        margin-top:-10rem;
+    }
+}
+
+
 .cuatroImgs ul{
     list-style: none;
 }
@@ -143,12 +170,28 @@ h3{
     height: 100px;
     width: 100px;
 }
-@media (min-width: 769px){
-    .cuatroImgs{
-        flex-direction: row;
-        margin-top:0;
+@media (min-width: 768px){
+    .imgDeco{
+        height: 300px;
+        width: 300px;
     }
+    .cuatroImgs div:first-child{
+        margin-top: 10rem;
+    }
+    .cuatroImgs div:nth-child(2){
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+    .cuatroImgs div:nth-child(3){
+        margin-top: 0;
+        margin-bottom: 10rem;
+    }
+    .cuatroImgs div:last-child{
+        margin-top: 15rem;
+    }
+
 }
+
 /*cajas contenido*/
 .contenido-box{
     background-color: #AAAAAA;
