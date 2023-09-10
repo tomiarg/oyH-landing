@@ -124,7 +124,6 @@ h3{
 }
 .backVideo{
     position: absolute;
-    width: 100%;
     z-index: -1;    
     top:0;
     overflow: hidden;
@@ -136,9 +135,7 @@ h3{
     font-size: 3rem;
     margin-left: 3rem;  
 }
-.fraseVideo{
-    margin-top:-50rem;
-}
+
 @media (min-width: 960px){
     .fraseVideo h2{
         margin:0 auto;
@@ -156,29 +153,11 @@ h3{
     align-items: center;   
     width: 100%;
     background-color: var(--rosa);
-    margin-top: -50rem;
     padding-bottom: 10rem;
-}
-@media (min-width: 391px){
-    .cuatroImgs{
-        margin-top:-45rem;
-    }
-}
-@media (min-width: 400px){
-    .cuatroImgs{
-        margin-top:-55rem;
-    }    
 }
 @media (min-width: 769px){
     .cuatroImgs{
         flex-direction: row;
-        margin-top:-20rem;
-    }
-}
-@media (min-width: 800px){
-    .cuatroImgs{
-        flex-direction: row;
-        margin-top:-10rem;
     }
 }
 
@@ -268,4 +247,14 @@ h3{
     margin:0 auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+footer{
+    background-color: lightgray;
+    text-align: center;
+    margin-bottom: 0;
+}
+footer p{
+    font-size: 12px;
+    margin: 0;
+    padding-bottom: 0;
 }
