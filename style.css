@@ -157,6 +157,7 @@ h3{
     width: 100%;
     background-color: var(--rosa);
     margin-top: -50rem;
+    padding-bottom: 10rem;
 }
 @media (min-width: 391px){
     .cuatroImgs{
@@ -213,7 +214,7 @@ h3{
 
 /*cajas contenido*/
 .contenido-servicios{
-    background-color: #AAAAAA;
+    background-color: #f5f5f5;
 }
 .servicios-heading{
     text-align: center;
@@ -261,6 +262,7 @@ h3{
 
 .square{
     background-color: var(--rosa);
+    border-radius: 15%;
     width: 10rem;
     height: 10rem;
     margin:0 auto;
