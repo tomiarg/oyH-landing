@@ -62,6 +62,9 @@ h3{
     height:100vh;
     
 }
+nav{
+    width: 100%;
+}
 @media (min-width: 768px){
     .header{
         height: 100vh;
@@ -103,17 +106,23 @@ h3{
     color:var(--rosa);
 }
 .redes{
-    display: flex;
-}
-.redes a{
-    padding-left: .4rem;
+    display: none;
 }
 .container-fluid{
     background-color: var(--azul);
+    
 }
+
 @media (min-width: 769px){
     .container-fluid{
-        background: rgba(204, 204, 204, 0.1)
+        background: rgba(204, 204, 204, 0.1);
+        
+    }
+    .redes{
+        display: flex;
+    }
+    .redes a{
+        padding-left: .4rem;
     }
     
 }
@@ -250,6 +259,19 @@ h3{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+/*contactanos*/
+.contactaNos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primario);
+}
+
+
+
+/*Footer*/
+
 footer{
     background-color: lightgray;
     text-align: center;
