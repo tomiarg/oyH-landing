@@ -275,16 +275,22 @@ nav{
     
 }
 .imagen-contactaNos{
-    height: 65rem;
-    width: 65rem;
+    height: 30rem;
+    width: 30rem;
 }
 .imagen-contactaNos img{
     width: 100%;
     height: 100%;
 }
+@media (min-width: 768px){
+    .imagen-contactaNos{
+    height: 65rem;
+    width: 65rem;
+}
+}
 .info-contactaNos{
     background-color: var(--blanco);
-    margin-top:-22rem;
+    margin-top:-10rem;
     margin-left:0;
     height: 25rem;
     width: 30rem;
@@ -322,20 +328,32 @@ footer p{
     margin: 0;
     padding-bottom: 0;
 }
-.whatsapp {
-    position:fixed;
-    width:60px;
-    height:60px;
-    bottom:40px;
-    right:40px;
-    background-color:#25d366;
-    color:#FFF;
-    border-radius:50px;
-    text-align:center;
-    font-size:30px;
-    z-index:100;
+.whatsapp{
+    display: none;
+}
+.whatsapp-icon {
+    display: none;
   }
-  
-  .whatsapp-icon {
-    margin-top:13px;
-  }
+
+@media (min-width: 768px){
+    .whatsapp {
+        display: block;
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:40px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:30px;
+        z-index:100;
+      }
+      
+      .whatsapp-icon {
+        display: block;
+        margin-top:13px;
+      }
+    
+}
