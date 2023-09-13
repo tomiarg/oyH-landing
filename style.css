@@ -232,13 +232,23 @@ nav{
     
 }
 .boxDiv{
+    width: 100%;
+    padding: .5rem;
     background-color: white;
     display: block;
     margin-top: 4rem;
     margin-bottom: 4rem;    
     border-radius: 5%;
 }
+
+.boxDiv h4{
+    
+    color: var(--primario);
+}
 @media (min-width: 769px){
+    .boxDiv{
+        width: 25%;
+    }
     .boxDiv:first-child{
         margin-left: 2rem;
     }
