@@ -270,6 +270,10 @@ nav{
     margin-bottom: 1rem;
 }
 
+.comunicacion{
+    background-color: var(--rosa);
+}
+
 /*contactanos*/
 .contactaNos{
     display: flex;
