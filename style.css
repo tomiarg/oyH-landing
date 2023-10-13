@@ -168,7 +168,9 @@ nav{
 @media (min-width: 960px){
     .fraseVideo h2{
         margin:0 auto;
-        font-size: 7rem;
+        font-size: 4rem;
+        text-align: center;
+        
     }
     .fraseVideo{
         margin-top: 0;
@@ -181,7 +183,7 @@ nav{
     justify-content: center;
     align-items: center;   
     width: 100%;
-    background-color: var(--rosa);
+    background-color: #f5f5f5;
     padding-bottom: 10rem;
 }
 @media (min-width: 769px){
@@ -199,12 +201,13 @@ nav{
 }
 @media (min-width: 768px){
     .imgDeco{
-        height: 25rem;
-        width: 25rem;
+        height: 37rem;
+        width: 37rem;
         display: block;
     }
     .cuatroImgs div:first-child{
         margin-top: 10rem;
+        margin-bottom: 0;
     }
     .cuatroImgs div:nth-child(2){
         margin-top: 2rem;
@@ -222,7 +225,7 @@ nav{
 
 /*cajas contenido*/
 .contenido-servicios{
-    background-color: #f5f5f5;
+    background-color: var(--gris);
 }
 .servicios-heading{
     text-align: center;
@@ -259,7 +262,6 @@ nav{
     border-radius: 5%;
 }
 .boxDiv h3{
-    font-family: var(--fuenteHeading);
     font-size: 2.6rem;
 }
 
@@ -267,11 +269,16 @@ nav{
     color: var(--primario);
     font-size: 2.2rem;
 }
+.boxDiv p{    
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .boxDiv video{
     border-radius: 3%;
 }
 @media (min-width: 769px){
     .boxDiv{
+        padding: 2rem;
         width: 25%;
     }
     .boxDiv:first-child{
@@ -282,15 +289,11 @@ nav{
     }
     
 }
-
-
-
 .square{
     background-color: var(--rosa);
     border-radius: 15%;
     width: 10rem;
     height: 10rem;
-    margin:0 auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -298,7 +301,6 @@ nav{
     justify-self: center;
     align-content: center;
 }
-
 .comunicacion{
     background-color: var(--rosa);
 }
