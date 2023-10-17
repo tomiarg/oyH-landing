@@ -246,7 +246,7 @@ nav{
     margin-top: 2rem;
     display: inline-block;
     padding: 2rem;
-    border-radius: 20%;
+    border-radius: 35%;
     background-color: var(--blanco);
     color: var(--azul);
 }
