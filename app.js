@@ -11,7 +11,7 @@ const iniciarApp = ()=>{
 
 
 const animacion =()=>{
-    const servicios = document.querySelector('.cuatroImgs');
+    const servicios = document.querySelector('#imgAnimate');
     const boxServiciosPrim = document.querySelector('.boxPrim')
     const boxSecond = document.querySelector(".boxSecond")
     const boxThrd = document.querySelector('.boxThrd')
@@ -32,7 +32,7 @@ const animacion =()=>{
 }
 const animacionContacto =()=>{
     window.addEventListener('scroll', ()=>{
-        const hacemos = document.querySelector("#hacemos")
+        const hacemos = document.querySelector("#videoAnimate")
         const imagenContacto = document.querySelector(".imagen-contactaNos")
         const infoContacto = document.querySelector(".info-contactaNos")
        if(hacemos.getBoundingClientRect().top<0){

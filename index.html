@@ -35,7 +35,7 @@
                                 <a class="nav-link" href="#servicios">Servicios</a>
                               </li>
                               <li class="nav-item">
-                                <a class="nav-link" href="#hacemos">Hacemos</a>
+                                <a class="nav-link" href="#hacemos">Mirá esto!</a>
                                 <li class="nav-item">
                                   <a class="nav-link" href="#contacto">Contacto</a>
                                 </li>
@@ -100,7 +100,7 @@
              <div>
               <picture>
                 <source srcset="./src/img/WebOYHFondoVioleta-7.webp" type="image/webp">
-                <img  loading="lazy" class="imgDeco" src="./src/img/WebOYHFondoVioleta-7.png" alt="Chicas Tomando Vino">
+                <img  loading="lazy" class="imgDeco" id=imgAnimate src="./src/img/WebOYHFondoVioleta-7.png" alt="Chicas Tomando Vino">
               </picture>
              </div>           
   
@@ -114,7 +114,7 @@
               <div class="square rosado">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" zoomAndPan="magnify" viewBox="0 0 810 809.999993" height="100" preserveAspectRatio="xMidYMid meet" version="1.0"><defs><clipPath id="0e2bc8a3d1"><path d="M 243 327.441406 L 567 327.441406 L 567 482.691406 L 243 482.691406 Z M 243 327.441406 " clip-rule="nonzero"/></clipPath></defs><g clip-path="url(#0e2bc8a3d1)"><path fill="#ff94c2" d="M 488.898438 482.5625 L 321.191406 482.5625 C 278.351562 482.5625 243.625 447.835938 243.625 404.996094 C 243.625 362.160156 278.351562 327.433594 321.191406 327.433594 L 488.898438 327.433594 C 531.742188 327.433594 566.46875 362.160156 566.46875 404.996094 C 566.46875 447.835938 531.742188 482.5625 488.898438 482.5625 " fill-opacity="1" fill-rule="nonzero"/></g><path fill="#ffffff" d="M 553.363281 404.996094 C 553.363281 441.179688 524.035156 470.507812 487.851562 470.507812 C 451.671875 470.507812 422.339844 441.179688 422.339844 404.996094 C 422.339844 368.816406 451.671875 339.484375 487.851562 339.484375 C 524.035156 339.484375 553.363281 368.816406 553.363281 404.996094 " fill-opacity="1" fill-rule="nonzero"/></svg>
               </div>      
-                <h3 >Eventos</h3>          
+                <h3 >Eventos corporativos</h3>          
                 <p>Integración & team buildings</p>
                 <p>Convenciones</p>
                 <p>After Office</p>
@@ -138,7 +138,7 @@
               <div class="square verde">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" zoomAndPan="magnify" viewBox="0 0 810 809.999993" height="100" preserveAspectRatio="xMidYMid meet" version="1.0"><defs><clipPath id="62de73d45f"><path d="M 272.6875 272.6875 L 537.4375 272.6875 L 537.4375 537.4375 L 272.6875 537.4375 Z M 272.6875 272.6875 " clip-rule="nonzero"/></clipPath></defs><g clip-path="url(#62de73d45f)"><path fill="#b4e02a" d="M 404.996094 338.839844 C 368.480469 338.839844 338.839844 368.480469 338.839844 404.996094 C 338.839844 441.515625 368.480469 471.152344 404.996094 471.152344 C 441.515625 471.152344 471.152344 441.515625 471.152344 404.996094 C 471.152344 368.480469 441.515625 338.839844 404.996094 338.839844 Z M 404.996094 272.6875 C 331.894531 272.6875 272.6875 331.894531 272.6875 404.996094 C 272.6875 478.097656 331.894531 537.308594 404.996094 537.308594 C 478.097656 537.308594 537.308594 478.097656 537.308594 404.996094 C 537.308594 331.894531 478.097656 272.6875 404.996094 272.6875 Z M 404.996094 510.84375 C 346.515625 510.84375 299.148438 463.476562 299.148438 404.996094 C 299.148438 346.515625 346.515625 299.148438 404.996094 299.148438 C 463.476562 299.148438 510.84375 346.515625 510.84375 404.996094 C 510.84375 463.476562 463.476562 510.84375 404.996094 510.84375 Z M 404.996094 510.84375 " fill-opacity="1" fill-rule="nonzero"/></g></svg>
               </div>
-                <h3>Comunicación</h3>           
+                <h3>Comunicación interna</h3>           
                   <p>Creación de campañas creativas</p>
                   <p>Redacción de contenidos</p>
                   <p>Asesoramiento en estrategias de comunicación</p>
@@ -178,7 +178,7 @@
             </video>
           </a>                   
         </div>  
-        <div class="boxDiv">
+        <div class="boxDiv" id="videoAnimate">
           <a href="https://www.instagram.com/reel/CjSjMmBtLEb/?igshid=MWZjMTM2ODFkZg%3D%3D" target="_blank">
             <video autoplay loop muted plays-inline width="100%" height="100%">
               <source src="./src/vid/reel-3mp4.mp4" type="video/mp4">
@@ -193,11 +193,12 @@
     <div id="contacto" class="contactaNos">
       <div class="imagen-contactaNos animate__animated ">
         <picture>
-          <source srcset="./src/img/Contacto nueva.webp" type="image/webp">
-          <img loading="lazy" class="" src="./src/img/Contacto nueva.png" alt="Chicas Riendo">
+          <source srcset="./src/img/Contactonueva.webp" type="image/webp">
+          <img loading="lazy" class="" src="./src/img/Contactonueva.png" alt="Chicas Riendo">
         </picture>  
       </div>
       <div class="info-contactaNos animate__animated ">
+        <h3></h3>
         <div class="info-contactaNos-detalle">
           <h2>Lu</h2>
           <p>Celular: <a href="https://api.whatsapp.com/send/?phone=5491165981511" target="_blank" class="ancla"> +54 9 11 65981511</a></p>

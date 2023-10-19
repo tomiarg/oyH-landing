@@ -126,7 +126,7 @@ nav{
     display: none;
 }
 .container-fluid{
-    background-color: var(--crema);
+    background-color: #fcab7b;
     
 }
 
@@ -196,8 +196,8 @@ nav{
         padding-bottom: 1rem;
     }
     .cuatroImgs div{
-        height:25rem;
-        width: 25rem;
+        height:40rem;
+        width: 25%;
     }
 
 }
@@ -206,8 +206,8 @@ nav{
     list-style: none;
 }
 .imgDeco{
-    height: 15rem;
-    width: 15rem;
+    width: 100%;
+    height: 100%;
 }
 @media (min-width: 768px){
     
@@ -215,7 +215,9 @@ nav{
         height:100%;
         width: 100%;
         display: block;
+        object-fit: fill;
     }
+   
     .cuatroImgs div:first-child{
         margin-top: 20rem;
         margin-bottom: 0;
@@ -366,6 +368,10 @@ nav{
     border-radius: 18%;
     padding:2rem;
     align-items: center;
+}
+.info-contactaNos h3{
+    text-align: center;
+    font-family: var(--fuenteHeading);
 }
 .info-contactaNos p{
     font-size: 1.5rem;
