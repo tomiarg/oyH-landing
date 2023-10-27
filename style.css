@@ -102,7 +102,6 @@ nav{
        display: flex;
        align-items: center;
        justify-content: space-around;
-
 }
 .navegacion-principal ul li{
     list-style: none;
@@ -116,7 +115,7 @@ nav{
 }
 .navegacion-principal a{
     text-decoration: none;
-    color: black;
+    color: var(--blanco);
     font-size: 2.2rem;
 }
 .navegacion-principal a:hover{
@@ -132,14 +131,21 @@ nav{
 
 @media (min-width: 769px){
     .container-fluid{
-        background: rgba(204, 204, 204, 0.1);
+        background: rgba(0, 0, 0, 0.6);
         
     }
     .redes{
         display: flex;
+        align-items: center;
     }
     .redes a{
         padding-left: .4rem;
+    }
+    .navbar-brand h1{
+        margin:0;        
+        display: flex;
+        text-align: center;
+        align-items: center;
     }
     
 }
@@ -355,9 +361,14 @@ nav{
 }
 @media (min-width: 768px){
     .imagen-contactaNos{
+    display: flex;
+    align-items: center;
     height: 60rem;
     width: 60rem;
 }
+    .imagen-contactaNos video{
+        height: 45rem;
+    }
 }
 .info-contactaNos{
     background-color: var(--blanco);
